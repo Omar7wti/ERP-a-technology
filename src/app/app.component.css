@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Almarai";
+  src: url("../assets/fonts/Almarai/Almarai-Regular.ttf") format("truetype");
+  /* Add additional font weights or styles as needed */
+}
+
+* {
+  font-family: "Almarai", sans-serif;
+}
