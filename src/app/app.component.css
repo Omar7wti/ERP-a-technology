@@ -8,3 +8,10 @@
   font-family: "Almarai", sans-serif;
   direction: rtl;
 }
+body {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
