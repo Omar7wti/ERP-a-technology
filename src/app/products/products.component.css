@@ -1,0 +1,31 @@
+table {
+  width: 100%;
+  margin: 40px 0px;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid #d4d6de;
+  padding: 20px;
+  thead {
+    tr {
+      th {
+        border-bottom: 1px solid #d4d6de;
+        padding-bottom: 20px;
+        display: flex;
+        align-items: center;
+        text-align: start;
+        font-size: 18px;
+        img {
+          width: 30px;
+          margin-left: 20px;
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      td {
+        padding-top: 20px;
+      }
+    }
+  }
+}
