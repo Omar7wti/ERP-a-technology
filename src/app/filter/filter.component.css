@@ -1,9 +1,4 @@
 .filter {
-  input {
-    border: 2px solid #d4d6de;
-    font-family: "Almarai";
-    outline-color: #c3c3c6;
-  }
   .price {
     background-color: white !important;
     background-image: none !important;

@@ -1,9 +1,4 @@
 .search_bar {
-  input {
-    border: 2px solid #d4d6de;
-    font-family: "Almarai";
-    outline-color: #c3c3c6;
-  }
   display: flex;
   align-items: center;
   justify-content: space-between;
