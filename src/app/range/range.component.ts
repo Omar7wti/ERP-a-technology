@@ -5,8 +5,6 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './range.component.html',
-  styleUrl: './range.component.css'
+  styleUrl: './range.component.css',
 })
-export class RangeComponent {
-
-}
+export class RangeComponent {}

@@ -1,11 +1,7 @@
-input {
-  border: 2px solid #d4d6de;
-  font-family: "Almarai";
-  outline-color: #c3c3c6;
-}
 .container {
   background-color: #fafafa;
   padding: 10px 30px;
   border-top: 2px solid #d4d6de;
+  border-bottom: 2px solid #d4d6de;
   flex-wrap: wrap;
 }
