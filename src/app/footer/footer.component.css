@@ -1,5 +1,12 @@
 .container {
+  select,
+  button {
+    width: 220px;
+    height: 70px;
+    margin: 20px;
+  }
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 30px 100px;
@@ -18,5 +25,10 @@
     outline: none;
     background-color: #0771de;
     color: white;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 792px) {
+  .container {
+    justify-content: center;
   }
 }

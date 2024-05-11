@@ -24,6 +24,7 @@ input {
 p {
   color: #83899f;
   font-size: 14px;
+  line-height: 30px;
 }
 button,
 select {
