@@ -1,0 +1,45 @@
+.mark_parent {
+  .mark_parent__box {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #d4d6de;
+    height: 50px;
+    padding: 10px 40px;
+  }
+
+  span {
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0px 10px;
+    cursor: pointer;
+  }
+
+  .red {
+    background-color: #fcf0e9;
+    color: red;
+  }
+
+  .green {
+    background-color: #ebf6f0;
+    color: green;
+  }
+
+  .purple {
+    background-color: #efedfd;
+    color: purple;
+  }
+
+  .gray {
+    color: #83899f;
+    background-color: #fafafa;
+  }
+  .defult {
+    color: #83899f;
+    border-right: 1px solid #83899f;
+    border-radius: 0px;
+    padding: 0px 20px 0px 0px;
+  }
+}

@@ -1,0 +1,35 @@
+.range__parent {
+  img {
+    cursor: pointer;
+  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid #d4d6de;
+  padding: 20px 50px;
+  .range__des {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0px;
+
+    h4 {
+      margin: 0px 30px;
+    }
+  }
+  .range__custom {
+    margin: 10px 0px;
+    width: 50%;
+    input {
+      width: 100%;
+    }
+  }
+}
+@media screen and (min-width: 420px) and (max-width: 1080px) {
+  .range__parent {
+    justify-content: center;
+  }
+}

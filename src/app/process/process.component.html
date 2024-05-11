@@ -1,37 +1,9 @@
 <div class="container">
-  <div class="search_bar">
-    <input type="text" placeholder="اسم المنتج" />
-    <div class="search_bar__img">
-      <img src="../../assets/images/Group 1000016158.svg" alt="" />
-    </div>
-  </div>
-  <div class="filter">
-    <div class="filter__customer">
-      <div class="title">
-        <img src="../../assets/images/Group 1000013747.svg" alt="" />
-        <div class="text">
-          <h4>حدد العميل</h4>
-          <p>يرجي البحث عن العميل لأختياره</p>
-        </div>
-      </div>
-      <div class="bar">
-        <input
-          type="text"
-          placeholder="ابحث عن العميل : اسم العميل , رقم هاتف"
-        />
-      </div>
-    </div>
-    <div class="filter__customer price">
-      <div class="title">
-        <img src="../../assets/images/wallet-minus.svg" alt="" />
-        <div class="text">
-          <h4>سعر الصفقة</h4>
-          <p>سعر الصفقة مبلغ شامل الضرائب</p>
-        </div>
-      </div>
-      <div class="bar">
-        <input type="text" placeholder="50.000 $" />
-      </div>
-    </div>
-  </div>
+  <app-search></app-search>
+  <app-filter></app-filter>
+  <app-range></app-range>
+  <app-details></app-details>
+  <app-marks></app-marks>
+  <app-products></app-products>
+  <textarea name="notes" id="" placeholder="ملاحظات إضافية"></textarea>
 </div>

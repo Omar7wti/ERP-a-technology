@@ -1,0 +1,23 @@
+.search_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0px;
+  input {
+    width: 75%;
+    height: 40px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 7px;
+  }
+  .search_bar__img {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    justify-content: start;
+    img {
+      height: 53px;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Almarai";
+  src: url("assets/fonts/Almarai/Almarai-Regular.ttf") format("truetype");
+  /* Add additional font weights or styles as needed */
+}
+
+* {
+  font-family: "Almarai", sans-serif;
+  direction: rtl;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+}
+input {
+  border: 2px solid #d4d6de;
+  font-family: "Almarai";
+  outline-color: #c3c3c6;
+  padding-right: 10px;
+}
+p {
+  color: #83899f;
+  font-size: 14px;
+}
+button,
+select {
+  cursor: pointer;
+}
+textarea {
+  resize: none;
+}
