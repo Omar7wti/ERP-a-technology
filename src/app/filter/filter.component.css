@@ -11,9 +11,11 @@
   align-items: center;
   justify-content: space-between;
   margin: 40px 0px;
+  flex-wrap: wrap;
   .filter__customer {
     width: 45%;
     padding: 20px;
+    margin-bottom: 40px;
     background-color: #f6faff;
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='7' ry='7' stroke='%232682E2FF' stroke-width='4' stroke-dasharray='6%2c 22' stroke-dashoffset='27' stroke-linecap='square'/%3e%3c/svg%3e");
     border-radius: 20px;

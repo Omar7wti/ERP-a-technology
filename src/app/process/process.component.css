@@ -5,6 +5,7 @@
   border-bottom: 2px solid #d4d6de;
   flex-wrap: wrap;
   textarea {
+    resize: none;
     background-color: white;
     border-radius: 20px;
     border: 2px solid #d4d6de;
