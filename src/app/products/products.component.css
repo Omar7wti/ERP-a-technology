@@ -25,6 +25,22 @@ table {
     tr {
       td {
         padding-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        img {
+          width: 350px;
+        }
+        button {
+          padding: 20px;
+          border-radius: 10px;
+          font-size: 18px;
+          outline: none;
+          border: 1px solid #d4d6de;
+          background-color: #0771de;
+          color: white;
+          padding: 10px 20px;
+        }
       }
     }
   }

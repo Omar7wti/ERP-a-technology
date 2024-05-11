@@ -1,3 +1,4 @@
+@import "~@fortawesome/fontawesome-free/css/all.css";
 @font-face {
   font-family: "Almarai";
   src: url("assets/fonts/Almarai/Almarai-Regular.ttf") format("truetype");
@@ -20,4 +21,12 @@ input {
   font-family: "Almarai";
   outline-color: #c3c3c6;
   padding-right: 10px;
+}
+p {
+  color: #83899f;
+  font-size: 14px;
+}
+button,
+select {
+  cursor: pointer;
 }
